@@ -1,0 +1,27 @@
+.nav {
+  background-color: $colorMain;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  img {
+    margin-right: 80px;
+  }
+  a {
+    margin-right: 40px;
+  }
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    transform: rotate(90deg);
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  @media (max-width: 800px) {
+    a,
+    button {
+      display: none;
+    }
+    .hamburger {
+      display: initial;
+    }
+  }
+}

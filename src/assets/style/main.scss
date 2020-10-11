@@ -1,0 +1,19 @@
+// BASICS
+@import './basics/variables';
+@import './basics/helpers';
+@import './basics/base';
+@import './basics/typography';
+@import './basics/animations';
+// VIEWS
+@import './views/home';
+
+// COMPONENTS
+@import './components/cta';
+@import './components/features';
+@import './components/footer';
+@import './components/hero';
+@import './components/nav';
+@import './components/quotes';
+
+//MODALS
+// @import './modals/screen-modal';

@@ -1,0 +1,31 @@
+.footer-home {
+  background-color: $colorDark;
+  padding: 50px 160px;
+  p {
+    color: #ffffff8c;
+  }
+  img {
+    margin-bottom: 50px;
+  }
+  .footer-links {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .social-icons {
+    justify-content: flex-end;
+    img:not(:first-child) {
+      margin-left: 15px;
+    }
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    padding: 50px 30px;
+    div {
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    .social-icons {
+      justify-content: center;
+    }
+  }
+}

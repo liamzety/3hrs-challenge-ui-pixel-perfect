@@ -1,0 +1,50 @@
+.features {
+  background-color: $colorSec;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  min-height: 680px;
+  hr {
+    width: 50px;
+    border: 2px solid $pink;
+    background: $pink;
+    margin-bottom: 70px;
+  }
+  h2 {
+    font-size: 3.5rem;
+    font-family: font1-semibold;
+  }
+  .col:first-child {
+    width: 445px;
+    margin-right: 100px;
+  }
+  .col:last-child {
+    width: 540px;
+    margin-right: 100px;
+  }
+  .feature {
+    h3 {
+      line-height: 3;
+      color: $pink;
+    }
+    p {
+      line-height: 1.5;
+    }
+    img {
+      margin-right: 20px;
+    }
+  }
+  @media (max-width: 1200px) {
+    flex-wrap: wrap;
+    h2 {
+      font-size: 2.5rem;
+    }
+    .feature {
+      margin-top: 100px;
+      flex-direction: column;
+      text-align: center;
+    }
+    .col:last-child {
+      margin-right: 0;
+    }
+  }
+}

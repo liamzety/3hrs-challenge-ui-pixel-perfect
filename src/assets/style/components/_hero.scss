@@ -1,0 +1,48 @@
+.hero {
+  background-color: $colorMain;
+  padding-bottom: 250px;
+  .hero-container {
+    flex-wrap: wrap;
+    h1 {
+      font-size: 5.5rem;
+      font-family: font1-semibold;
+    }
+    span {
+      color: $pink;
+    }
+    img {
+      bottom: 0;
+      left: 50%;
+    }
+    .col:first-child {
+      width: 600px;
+    }
+    .col:nth-child(2) {
+      height: auto;
+      width: 40%;
+      hr {
+        border: 2px solid $span-green;
+        width: 50px;
+        background: $span-green;
+      }
+    }
+  }
+  @media (max-width: 800px) {
+    .hero-container {
+      .col:first-child,
+      .col:nth-child(2) {
+        text-align: center;
+        width: 100%;
+      }
+      h1 {
+        font-size: 4rem;
+      }
+      hr {
+        display: none;
+      }
+      img {
+        left: 0;
+      }
+    }
+  }
+}

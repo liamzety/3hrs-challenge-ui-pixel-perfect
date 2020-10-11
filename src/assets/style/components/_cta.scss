@@ -1,0 +1,21 @@
+.cta {
+  background-color: $pink;
+  min-height: 200px;
+  h2 {
+    font-size: 48px;
+    color: $colorDark;
+    font-weight: 700;
+  }
+  .btn-cta {
+    color: $colorDark;
+    border-color: $colorDark;
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    padding: 100px;
+    text-align: center;
+    h2 {
+      margin-bottom: 30px;
+    }
+  }
+}
